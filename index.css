@@ -14,11 +14,11 @@ button{
     background: #212332;
     border: transparent;
     border-radius: 50px;
-    width: 70%;
+    width: 80%;
     text-decoration: none;
     color: white;
     font-size: x-large;
-    margin: 25px 10%;
+    margin: 25px 10% 25px 10%;
     padding: 30px;
 }
 div a{
