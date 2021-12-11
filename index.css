@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("OsfFKJ0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+div a:hover{
+    opacity: 0.5;
+}
+.big-box{
+    margin: 10% 10%;
+    align-items: center;
+}
+.box{
+    /* background: linear-gradient(90deg, #232526, #414345); */
+    /* border: 2px solid white; */
+    background: #212332;
+    width: 60%;
+    margin: 30px auto;
+    padding: 40px;
+    text-align: center;
+}
