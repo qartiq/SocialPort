@@ -1,11 +1,13 @@
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
 body{
     background-image: url("OsfFKJ0.jpg");
     background-size: cover;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
     background-attachment: fixed;
 }
 button{
@@ -26,12 +28,11 @@ div a{
 }
 div a:hover{
     opacity: 0.8;
-    text-decoration: underline;
-    text-decoration-color: white;
+    
 }
 .big-box{
     margin: 10% 10%;
-    align-items: center;
+    /* align-items: center; */
 }
 /* .box{
     background: #212332;
