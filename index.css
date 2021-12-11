@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0%;
     padding: 0%;
 }
@@ -8,24 +8,36 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+button{
+    background: #212332;
+    border: transparent;
+    border-radius: 50px;
+    width: 70%;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    margin: 25px 15%;
+    padding: 30px;
+}
 div a{
     text-decoration: none;
     color: white;
     font-size: x-large;
 }
 div a:hover{
-    opacity: 0.5;
+    opacity: 0.8;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 .big-box{
     margin: 10% 10%;
     align-items: center;
 }
-.box{
-    /* background: linear-gradient(90deg, #232526, #414345); */
-    /* border: 2px solid white; */
+/* .box{
     background: #212332;
-    width: 60%;
+    border-radius: 50px;
+    width: 70%;
     margin: 30px auto;
     padding: 40px;
     text-align: center;
-}
+} */
