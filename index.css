@@ -10,6 +10,13 @@ body{
     background-repeat: no-repeat; */
     background-attachment: fixed;
 }
+
+/* img{
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+    margin: auto 2%;
+} */
 button{
     background: #212332;
     border: transparent;
@@ -21,6 +28,10 @@ button{
     margin: 25px 10% 25px 10%;
     padding: 30px;
 }
+button:hover{
+    border: 2px solid white;
+    /* text-decoration: underline; */
+}
 div a{
     text-decoration: none;
     color: white;
@@ -29,6 +40,10 @@ div a{
 div a:hover{
     opacity: 0.8;
     
+}
+#section-header{
+    text-align: center;
+    color: whitesmoke;
 }
 .big-box{
     margin: 10% 10%;
