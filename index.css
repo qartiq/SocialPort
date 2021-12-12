@@ -27,6 +27,7 @@ button{
     font-size: x-large;
     margin: 25px 10% 25px 10%;
     padding: 30px;
+    opacity: 0.9;
 }
 button:hover{
     border: 2px solid white;
